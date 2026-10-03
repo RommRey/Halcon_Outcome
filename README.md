@@ -56,3 +56,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Halcon Outcome Project
+
+## Project Description
+Web application system designed for managing and tracking dynamic order processes, warehouse operations, and delivery evidence workflows for Halcon.
+
+## ER Diagram
+![Entity Relationship Diagram](./docs/er_diagram.png)
+
+## Database Seeder & Factory Implementation
+- **Users Seeder**: Populates default system roles and creates 3 administrative and operational users.
+- **Orders Factory**: Uses FakerPHP to generate 50 realistic order entries and their associated customer records.
