@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->timestamps();
+            $table->string('material')->nullable();
+            $table->integer('stock')->default(0);
         });
     }
 
